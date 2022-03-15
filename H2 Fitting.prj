@@ -1,36 +1,43 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3282242045" file="C:\Users\hvidi\Desktop\H2GUI\H2 Fitting.prj" location="C:\Users\hvidi\Desktop\H2GUI" name="H2 Fitting" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1566830389" file="C:\Users\hvidi\Desktop\H2GUI\H2 Fitting.prj" location="C:\Users\hvidi\Desktop\H2GUI" name="H2 Fitting" target="target.mlapps" target-name="Package App">
     <param.appname>H2 Fitting</param.appname>
     <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
-    <param.email />
+    <param.email>vidihari@student.ubc.ca</param.email>
     <param.company>SolarSpec</param.company>
     <param.icon />
     <param.icons />
-    <param.summary />
+    <param.summary>A fitting GUI for H2 evolution data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tp9021d84d_f98f_4952_9d79_5ab8c286bfb7.png</param.screenshot>
+    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tpd615abd3_5e11_425e_b450_516f661df065.png</param.screenshot>
     <param.version>1.0</param.version>
-    <param.products.name />
-    <param.products.id />
-    <param.products.version />
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Curve Fitting Toolbox</item>
+      <item>Image Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>60</item>
+      <item>17</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.11</item>
+      <item>3.6</item>
+      <item>11.4</item>
+    </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
-    <param.guid>d80ca6bf-dac1-4b79-ab35-df488f3c7bc6</param.guid>
+    <param.guid>e07ee412-1602-41f0-a8d3-27566d5d5663</param.guid>
     <unset>
-      <param.email />
       <param.icon />
       <param.icons />
-      <param.summary />
       <param.description />
       <param.version />
-      <param.products.name />
-      <param.products.id />
-      <param.products.version />
       <param.platforms />
       <param.output />
     </unset>
     <fileset.main>
-      <file>${PROJECT_ROOT}\H2_PanelReflow.mlapp</file>
+      <file>${PROJECT_ROOT}\H2_Fitting.mlapp</file>
     </fileset.main>
     <fileset.depfun />
     <fileset.resources />
