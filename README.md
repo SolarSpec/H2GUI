@@ -17,7 +17,7 @@
     <img src="H2 Fitting_resources/logo.png" alt="SolarSpec" width="160" height="120">
   </a>
 
-<h3 align="center">PIAS GUI</h3>
+<h3 align="center">H2 Evolution GUI</h3>
 
   <p align="center">
     A Graphical User Interface 
@@ -66,7 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![PIAS Screenshot][product-screenshot]](https://solarspec.ok.ubc.ca/)
+[![H2 Screenshot][product-screenshot]](https://solarspec.ok.ubc.ca/)
 Similar to the Log-Log Fitting app attached to the Spectrabuilder GUI but instead used for H2 evolution data.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -202,4 +202,4 @@ Project Link: [https://github.com/SolarSpec/H2GUI](https://github.com/SolarSpec/
 [license-url]: https://github.com/SolarSpec/H2GUI/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/haris-vidimlic-06730019b/
-[product-screenshot]: H2 Fitting_resources/Screenshot.png
+[product-screenshot]: 'H2 Fitting_resources'/Screenshot.png
