@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/SolarSpec/H2GUI">
-    <img src="H2 Fitting_resources/logo.png" alt="SolarSpec" width="160" height="120">
+    <img src="H2_Fitting_resources/logo.png" alt="SolarSpec" width="160" height="120">
   </a>
 
 <h3 align="center">H2 Evolution GUI</h3>
@@ -121,10 +121,10 @@ No examples uploaded yet. Coming soon!
 
 
   <!-- <div class="row">
-    <img src="H2 Fitting_resources/ExportButton.png" alt="Export">
+    <img src="H2_Fitting_resources/ExportButton.png" alt="Export">
   </div>
   <div class="row" style="float:left">
-    <img src="H2 Fitting_resources/TopCSV.png" alt="Top" style="width:50%;height:50%;padding: 5px"><img src="H2 Fitting_resources/BottomCSV.png" alt="Bottom" style="width:50%;height:50%;padding: 5px">
+    <img src="H2_Fitting_resources/TopCSV.png" alt="Top" style="width:50%;height:50%;padding: 5px"><img src="H2_Fitting_resources/BottomCSV.png" alt="Bottom" style="width:50%;height:50%;padding: 5px">
   </div>
  -->
 
