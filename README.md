@@ -202,4 +202,4 @@ Project Link: [https://github.com/SolarSpec/H2GUI](https://github.com/SolarSpec/
 [license-url]: https://github.com/SolarSpec/H2GUI/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/haris-vidimlic-06730019b/
-[product-screenshot]: 'H2 Fitting_resources'/Screenshot.png
+[product-screenshot]: H2_Fitting_resources/Screenshot.png
