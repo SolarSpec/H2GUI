@@ -67,6 +67,7 @@
 ## About The Project
 
 [![H2 Screenshot][product-screenshot]](https://solarspec.ok.ubc.ca/)
+
 Similar to the Log-Log Fitting app attached to the Spectrabuilder GUI but instead used for H2 evolution data.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
