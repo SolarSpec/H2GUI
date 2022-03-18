@@ -1,14 +1,18 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1566830389" file="C:\Users\hvidi\Desktop\H2GUI\H2 Fitting.prj" location="C:\Users\hvidi\Desktop\H2GUI" name="H2 Fitting" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3746665429" file="C:\Users\hvidi\Desktop\H2GUI\H2 Fitting.prj" location="C:\Users\hvidi\Desktop\H2GUI" name="H2 Fitting" target="target.mlapps" target-name="Package App">
     <param.appname>H2 Fitting</param.appname>
     <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
     <param.email>vidihari@student.ubc.ca</param.email>
     <param.company>SolarSpec</param.company>
-    <param.icon />
-    <param.icons />
+    <param.icon>${PROJECT_ROOT}\H2 Fitting_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\H2 Fitting_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\H2 Fitting_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\H2 Fitting_resources\icon_16.png</file>
+    </param.icons>
     <param.summary>A fitting GUI for H2 evolution data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tpd615abd3_5e11_425e_b450_516f661df065.png</param.screenshot>
+    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tp2a34c157_3179_4b31_a98e_255fb93e451e.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -29,8 +33,6 @@
     <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>e07ee412-1602-41f0-a8d3-27566d5d5663</param.guid>
     <unset>
-      <param.icon />
-      <param.icons />
       <param.description />
       <param.version />
       <param.platforms />
@@ -39,7 +41,9 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\H2_Fitting.mlapp</file>
     </fileset.main>
-    <fileset.depfun />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\H2 Fitting_resources\logo.png</file>
+    </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
