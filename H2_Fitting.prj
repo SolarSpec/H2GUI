@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="81842610" file="C:\Users\hvidi\Desktop\H2GUI\H2_Fitting.prj" location="C:\Users\hvidi\Desktop\H2GUI" name="H2_Fitting" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="865587453" file="C:\Users\hvidi\Desktop\H2GUI\H2_Fitting.prj" location="C:\Users\hvidi\Desktop\H2GUI" name="H2_Fitting" target="target.mlapps" target-name="Package App">
     <param.appname>H2_Fitting</param.appname>
     <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
     <param.email>vidihari@student.ubc.ca</param.email>
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>A fitting GUI for H2 evolution data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tp5c54a636_ee10_497f_8174_8741082cb73d.png</param.screenshot>
+    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tpb639c962_26f2_4527_afe4_3f912f4d5c78.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
