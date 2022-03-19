@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1384947050" file="C:\Users\Haris\Desktop\H2GUI\H2_Fitting.prj" location="C:\Users\Haris\Desktop\H2GUI" name="H2_Fitting" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="81842610" file="C:\Users\hvidi\Desktop\H2GUI\H2_Fitting.prj" location="C:\Users\hvidi\Desktop\H2GUI" name="H2_Fitting" target="target.mlapps" target-name="Package App">
     <param.appname>H2_Fitting</param.appname>
     <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
     <param.email>vidihari@student.ubc.ca</param.email>
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>A fitting GUI for H2 evolution data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\Haris\AppData\Local\Temp\tpfe5f10ea_4490_47bd_9f9e_8cc2e619f9b4.png</param.screenshot>
+    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tp5c54a636_ee10_497f_8174_8741082cb73d.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -41,16 +41,55 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\H2_Fitting.mlapp</file>
     </fileset.main>
-    <fileset.depfun />
+    <fileset.depfun>
+      <file>C:\Users\hvidi\Desktop\PIAS Repo\PIASpectra_resources\logo.png</file>
+    </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Haris\Desktop" name="H2GUI" optional="false">C:\Users\Haris\Desktop\H2GUI</file>
+      <file location="C:\Users\hvidi\Desktop" name="H2GUI" optional="false">C:\Users\hvidi\Desktop\H2GUI</file>
     </build-deliverables>
     <workflow />
     <matlab>
       <root>C:\Program Files\MATLAB\R2021b</root>
-      <toolboxes />
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
     </matlab>
     <platform>
       <unix>false</unix>
