@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="154909764" file="C:\Users\hvidi\Desktop\H2GUI\H2_Fitting.prj" location="C:\Users\hvidi\Desktop\H2GUI" name="H2_Fitting" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="570863923" file="C:\Users\hvidi\Desktop\H2GUI\H2_Fitting.prj" location="C:\Users\hvidi\Desktop\H2GUI" name="H2_Fitting" target="target.mlapps" target-name="Package App">
     <param.appname>H2_Fitting</param.appname>
     <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
     <param.email>vidihari@student.ubc.ca</param.email>
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>A fitting GUI for H2 evolution data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tpfc564754_5fff_4fae_a9b4_fbfe339e035d.png</param.screenshot>
+    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tpdd70994c_fd07_4682_a491_9a6752fee763.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -42,7 +42,7 @@
       <file>${PROJECT_ROOT}\H2_Fitting.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>${PROJECT_ROOT}\H2_Fitting_resources\logo.png</file>
+      <file>C:\Users\hvidi\Desktop\DLSmultiAverage\Chang's App\images\logo.png</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
