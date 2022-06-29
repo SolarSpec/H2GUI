@@ -118,16 +118,9 @@ Click on the "Add-Ons" dropdown menu of your MATLAB Home screen. Then click on "
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-No examples uploaded yet. Coming soon!
+To begin, load some H2 evolution data from an excel file (.csv or .xlsx) which will then plot the processed concentration vs. time (s) if it is present in the file. If not, the GUI will revert to the raw data which displays voltage (mV) vs. time (s). In this case you can manually input the slope and intercept values of the linear equation that relates the raw to the processed concentration data. There is also an edit field for the volume in (mL) that multiplies the processed data by the inputted value to convert it into moles (nmol). 
 
-
-  <!-- <div class="row">
-    <img src="H2_Fitting_resources/ExportButton.png" alt="Export">
-  </div>
-  <div class="row" style="float:left">
-    <img src="H2_Fitting_resources/TopCSV.png" alt="Top" style="width:50%;height:50%;padding: 5px"><img src="H2_Fitting_resources/BottomCSV.png" alt="Bottom" style="width:50%;height:50%;padding: 5px">
-  </div>
- -->
+There are fields to edit the fit limits which change the position of the ROI lines overlaying the data. Changing these values allow you to partition the data in order to save specific slopes to the table on the left panel. The user can repeat this process as many times as desired while also changing the units and even resetting the table if needed. At the bottom of the left panel displays the mean and standard deviation of the checked/selected slopes. It is advised to only have the same type of units selected to avoid any issues with the mean values mentioned above. The axes limit fields instead crops the plot data and exported data by the inputted values.
 
 _For more information on data filtering and decimation, please refer to the [Documentation](https://www.mathworks.com/help/signal/ref/decimate.html#d123e21788)_
 
