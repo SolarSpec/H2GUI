@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="343581859" file="C:\Users\hvidi\Desktop\H2GUI\H2_Fitting.prj" location="C:\Users\hvidi\Desktop\H2GUI" name="H2_Fitting" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="164503910" file="C:\Users\Haris\Desktop\Platform-Repo\H2GUI\H2_Fitting.prj" location="C:\Users\Haris\Desktop\Platform-Repo\H2GUI" name="H2_Fitting" target="target.mlapps" target-name="Package App">
     <param.appname>H2_Fitting</param.appname>
     <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
     <param.email>vidihari@student.ubc.ca</param.email>
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>A fitting GUI for H2 evolution data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tp20986231_2654_4802_aa6d_1605eccb8ce7.png</param.screenshot>
+    <param.screenshot>C:\Users\Haris\AppData\Local\Temp\tp63341d71_3a9d_4c85_92d0_2213fb0370d6.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -25,9 +25,9 @@
       <item>17</item>
     </param.products.id>
     <param.products.version>
-      <item>9.11</item>
-      <item>3.6</item>
-      <item>11.4</item>
+      <item>9.12</item>
+      <item>3.7</item>
+      <item>11.5</item>
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
@@ -42,16 +42,16 @@
       <file>${PROJECT_ROOT}\H2_Fitting.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>C:\Users\hvidi\Desktop\DLSmultiAverage\Chang's App\images\logo.png</file>
+      <file>C:\Users\Haris\Desktop\Platform-Repo\DLSmultiAverage\images\logo.png</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\hvidi\Desktop" name="H2GUI" optional="false">C:\Users\hvidi\Desktop\H2GUI</file>
+      <file location="C:\Users\Haris\Desktop\Platform-Repo" name="H2GUI" optional="false">C:\Users\Haris\Desktop\Platform-Repo\H2GUI</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2021b</root>
+      <root>F:\MATLAB\R2022a</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
