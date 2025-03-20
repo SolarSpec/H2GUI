@@ -1,7 +1,7 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2457823490" file="C:\Users\Haris\Desktop\Platform-Repo\H2GUI\H2_Fitting.prj" location="C:\Users\Haris\Desktop\Platform-Repo\H2GUI" name="H2_Fitting" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="192625829" file="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\H2GUI\H2_Fitting.prj" location="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\H2GUI" name="H2_Fitting" target="target.mlapps" target-name="Package App">
     <param.appname>H2_Fitting</param.appname>
-    <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
+    <param.authnamewatermark>Haris Vidimlic, Robert Godin</param.authnamewatermark>
     <param.email>vidihari@student.ubc.ca</param.email>
     <param.company>SolarSpec</param.company>
     <param.icon>${PROJECT_ROOT}\H2_Fitting_resources\icon_24.png</param.icon>
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary>A fitting GUI for H2 evolution data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\Haris\AppData\Local\Temp\tpb15e665c_3676_42c8_9d33_013817f57059.png</param.screenshot>
-    <param.version>2.0</param.version>
+    <param.screenshot>C:\Users\rgodin01\AppData\Local\Temp\tp020a3c1f_1442_48a4_8026_503641fc93a0.png</param.screenshot>
+    <param.version>2.1</param.version>
     <param.products.name>
       <item>MATLAB</item>
       <item>Curve Fitting Toolbox</item>
@@ -46,17 +46,14 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Haris\Desktop\Platform-Repo" name="H2GUI" optional="false">C:\Users\Haris\Desktop\Platform-Repo\H2GUI</file>
+      <file location="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo" name="H2GUI" optional="false">D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\H2GUI</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>H:\Program Files\MATLAB\R2022b</root>
+      <root>C:\Program Files\MATLAB\R2022b</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
-        <toolbox name="embeddedcoder" />
         <toolbox name="gpucoder" />
-        <toolbox name="fixedpoint" />
-        <toolbox name="matlabhdlcoder" />
         <toolbox name="neuralnetwork" />
       </toolboxes>
       <toolbox>
@@ -65,24 +62,9 @@
         </matlabcoder>
       </toolbox>
       <toolbox>
-        <embeddedcoder>
-          <enabled>true</enabled>
-        </embeddedcoder>
-      </toolbox>
-      <toolbox>
         <gpucoder>
           <enabled>true</enabled>
         </gpucoder>
-      </toolbox>
-      <toolbox>
-        <fixedpoint>
-          <enabled>true</enabled>
-        </fixedpoint>
-      </toolbox>
-      <toolbox>
-        <matlabhdlcoder>
-          <enabled>true</enabled>
-        </matlabhdlcoder>
       </toolbox>
       <toolbox>
         <neuralnetwork>
